@@ -290,9 +290,10 @@ margin-right: 76px;
     height: 100%;
     color: #FFFFFF;
     background-color: #4D5AE5;
+    border-radius: 50%;
 }
 
-.block-circle .icon{
+.socials-link .icon{
     color: currentColor;
 }
 .section-three .text{
