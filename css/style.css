@@ -270,3 +270,10 @@ margin-right: 76px;
 .section-three .title{
     text-align: center;
 }
+
+.socials{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
