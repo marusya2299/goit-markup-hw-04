@@ -282,6 +282,8 @@ img{
 
 .text-medium {
     font-weight: 500;
+    width: 208px;
+    margin-bottom: 16px;
 }
 
 .final-logo{
@@ -298,7 +300,9 @@ img{
 }
 
 .final-section .socials{
+
     width: 208px;
+    justify-content: space-between;
 }
 .block-circle{
     width: 40px;
