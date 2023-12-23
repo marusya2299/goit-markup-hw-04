@@ -301,6 +301,7 @@ img{
 
 .final-section .socials{
     justify-content: space-between;
+    gap: 16px;
 }
 .block-circle{
     width: 40px;
