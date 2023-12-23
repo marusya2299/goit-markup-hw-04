@@ -211,6 +211,9 @@ img{
 }
 
 .icon-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 264px;
     height: 112px;
     border: 1px solid #8E8F99;
@@ -219,9 +222,6 @@ img{
     margin-bottom: 8px;
 }
 
-.icon .icon-block{
-    text-align: center;
-}
 /*Section's 3*/
 .section-card {
     background-color: #FFFFFF;
