@@ -66,12 +66,8 @@ img{
     margin-bottom: 8px;
 }
 
-.text .text-medium {
+.text{
     color: #434455;
-}
-
-.text-medium {
-    font-weight: 500;
 }
 
  /*Header */
@@ -279,6 +275,10 @@ img{
 
 .final-section .text{
     width: 264px;
+}
+
+.text-medium {
+    font-weight: 500;
 }
 
 .final-logo{
