@@ -220,6 +220,7 @@ img{
 }
 
 .icon .icon-block{
+    display: inline-block;
     padding-top: 24px;
     padding-left: 100px;
 }
