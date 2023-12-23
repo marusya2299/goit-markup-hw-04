@@ -220,9 +220,7 @@ img{
 }
 
 .icon .icon-block{
-    display: block;
-    padding-top: 24px;
-    padding-left: 100px;
+    text-align: center;
 }
 /*Section's 3*/
 .section-card {
