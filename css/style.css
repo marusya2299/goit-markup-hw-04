@@ -293,6 +293,11 @@ margin-right: 76px;
     border-radius: 50%;
 }
 
+.socials-link:hover,
+.socials-link:focus{
+    background-color: #404BBF;
+}
+
 .socials-link .icon{
     fill: currentColor;
 }
