@@ -264,6 +264,9 @@ img{
     color: #F4F4FD;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+.flex-container-footer{
     display: flex;
     gap: 120px;
 }
