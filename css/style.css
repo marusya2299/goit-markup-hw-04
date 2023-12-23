@@ -220,7 +220,8 @@ img{
 }
 
 .icon .icon-block{
-    padding: 24px 100px;
+    padding-top: 24px;
+    padding-left: 100px;
 }
 /*Section's 3*/
 .section-card {
@@ -233,6 +234,9 @@ img{
 
 .section-three .flex-card {
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .flex-container-three {
@@ -268,6 +272,31 @@ img{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+}
+
+.special-image{
+    position: relative;
+    overflow: hidden;
+}
+
+.special-card:hover .overlay{
+    transform: translateX(0);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #4D5AE5;
+    color: #F4F4FD;
+    padding-top: 40px;
+    padding-left: 32px;
+    padding-right: 32px;
+
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*Footer*/
