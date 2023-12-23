@@ -298,7 +298,7 @@ img{
 }
 
 .final-section .socials{
-    justify-content: space-between;
+    width: 208px;
 }
 .block-circle{
     width: 40px;
