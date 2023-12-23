@@ -119,6 +119,11 @@ img{
     color: inherit;
 }
 
+.navi-link,
+.address-link {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
  .navi-link:hover,
  .navi-link:focus,
  .address-link:hover,
@@ -164,8 +169,8 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
-
 
  .button:hover,
  .button:focus{
@@ -360,6 +365,10 @@ img{
     border-radius: 50%;
 }
 
+.socials-link,
+.final-section .socials-link{
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .socials-link:hover,
 .socials-link:focus{
     background-color: #404BBF;
@@ -372,12 +381,4 @@ img{
 
 .socials-link .icon{
     fill: currentColor;
-}
-
-.socials-link,
-.final-section .socials-link,
-.navi-link,
-.address-link,
-.button {
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
