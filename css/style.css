@@ -217,10 +217,11 @@ img{
     border-radius: 4px;
     background-color: #F4F4FD;
     margin-bottom: 8px;
-    text-align: center;
-
 }
 
+.icon .icon-block{
+    padding: 24px 100px;
+}
 /*Section's 3*/
 .section-card {
     background-color: #FFFFFF;
