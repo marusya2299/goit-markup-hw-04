@@ -137,12 +137,19 @@ img{
     gap: 40px;
     align-items: center;
  }
- 
+
+ .special-link{
+    position: relative;
+ }
  .special-link:hover::after{
-    content: "";
+    content: '';
+    display: inline-block;
     width: 48px;
     height: 4px;
-    background-color: #404BBF;
+    border-radius: 2px;
+    position: absolute;
+    top: 95%;
+    background: #404BBF;
  }
 
  /*Section 1*/
