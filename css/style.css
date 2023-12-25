@@ -143,17 +143,17 @@ img{
 
  .special-link{
     position: relative;
+    color: #404bbf;
  }
  .special-link:hover::after{
     content: '';
-    display: inline-block;
     width: 48px;
     height: 4px;
     border-radius: 2px;
     position: absolute;
     left: 0;
     bottom: -1px;
-    background: #404BBF;
+    background-color: #404BBF;
  }
 
  /*Section 1*/
