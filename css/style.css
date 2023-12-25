@@ -349,19 +349,21 @@ img{
     gap: 120px;
 }
 
-.final-logo .accent{
+.final-logo .accent
+.final-section .text{
     color: #f4f4fd;
 }
 
 .final-section .text{
     width: 264px;
-    color: #FFFFFF;
+
 }
 
 .text-medium {
     font-weight: 500;
     width: 208px;
     margin-bottom: 16px;
+    color: #FFFFFF;
 }
 
 .final-logo{
