@@ -346,16 +346,15 @@ img{
 .flex-container-footer{
     display: flex;
     align-items: baseline;
-    gap: 120px;
 }
 
-.final-logo .accent
-.final-section .text{
+.final-logo .accent{
     color: #f4f4fd;
 }
 
 .final-section .text{
     width: 264px;
+    color: #f4f4fd;
 
 }
 
