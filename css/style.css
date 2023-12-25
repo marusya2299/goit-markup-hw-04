@@ -138,16 +138,15 @@ img{
     align-items: center;
  }
 
- .special-link{
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ .navi-link .special-link{
+    padding: 0;
  }
 
- .special-link:hover{
-    border-bottom: 4px solid #404BBF;
-    border-bottom-left-radius: 2px;
-    border-bottom-right-radius: 2px;
-    padding-bottom: 20px;
-
+ .special-link:hover::after{
+    content: " ";
+    width: 48px;
+    height: 4px;
+    background-color: #404BBF;
  }
 
  /*Section 1*/
