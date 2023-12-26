@@ -145,7 +145,8 @@ img{
     position: relative;
     color: #404bbf;
  }
- .special-link:hover::after{
+
+ .special-link::after{
     content: '';
     width: 48px;
     height: 4px;
